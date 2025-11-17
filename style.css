@@ -1,0 +1,346 @@
+
+@font-face {
+    font-family: Main;
+    src: url(font/LinBiolinum_K\ copy.otf);
+}
+
+
+body, html{
+background-color: black;
+overflow: hidden;
+
+}
+
+#cursor-custom{
+  cursor: url('pics/cursor.png'), auto;
+}
+
+.scroll-container {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+.letter-container{
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    padding-top:1.3%;
+    width: 98%;
+    z-index: 3;
+    background-color: black;
+}
+
+.letter{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;  
+    border-radius: 4px;
+    display: inline;
+    background-color: black;
+    color: white;
+    top: 20vh;
+    margin-left: 0.8%;
+    width: 4rem; 
+    padding: 1.2rem;
+    font-size: 1rem;
+    filter: drop-shadow(0 0 0.30rem rgb(255, 252, 252));  
+}
+
+.space{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;  
+    border-radius: 4px;
+    display: inline;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    margin-left: 0.5%;
+    width: 22.5rem; 
+    padding: 1.1rem;
+    font-size: 1rem;
+    filter: drop-shadow(0 0 0.30rem rgb(255, 252, 252));
+}
+
+.sub-title{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  margin-top:1%;
+  margin-left:0.8%;
+  text-transform: uppercase;  
+  font-size: 1.5rem;
+  outline: none;
+  border: 1px solid rgba(79, 43, 2, 0.8);
+  border-radius: 5px;
+  outline: none;
+  padding: 8px 10px;
+  color: #fff;
+  background: linear-gradient(180deg, #37E7FF 0%, #0047FF 50%, #46DEFF 100%);
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, .8), 0px 1px 0px rgba(255, 255, 255, .4);
+}
+
+label{
+   line-height: 2;
+    font-size: 20px;
+
+}
+
+input{
+    font-size: 1.2rem;
+    display: flex;
+    word-wrap: break-word;
+    margin : 0 auto;
+    width: 70%;
+    padding: 12%;
+    border: 1px solid black; 
+    filter: drop-shadow(0 0 0.30rem rgb(121, 229, 250));
+    font-family: Main;
+    background-color: rgb(255, 254, 254);
+    border: rgb(5, 255, 243) 20px solid;
+    border-style: groove;
+}
+
+input[type=text]:focus {
+    filter: drop-shadow(0 0 0.6rem rgb(121, 229, 250));
+  }
+
+.first-input, .second-input, .third-input{
+    margin-top: 23vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    color: white;
+  }
+
+
+.first-input-text, .second-input-text, .third-input-text{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 1.3rem;
+    top:5vh;
+}
+
+.scroll{
+    display: flex;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.7rem;
+    color: aqua;
+    text-decoration: underline
+}
+
+#log1,
+#log2 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 30px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  color: rgb(0, 195, 255);
+}
+
+
+#log1.show,
+#log2.show {
+  visibility: visible;
+  opacity: 1;
+}
+
+  .section {
+    height: 100vh;
+    overflow-x: hidden;
+    scroll-snap-align: start;
+    scroll-behavior: smooth;
+  }
+
+
+  .button{
+    display: flex;
+  }
+
+  .gif{
+    width: 25%;
+    right: 0;
+    top: 0;
+    position: fixed;
+    filter: drop-shadow(0 0 0.30rem rgb(255, 252, 252));
+    opacity: 1;
+  }
+  .gif-two{
+    width: 16%;
+    left:-2vw;
+    top: 25vh;
+    position: fixed;
+    filter: drop-shadow(0 0 0.30rem rgb(255, 252, 252));
+    opacity: 1;
+    z-index: 3;
+  }
+
+  .gif-two-two{
+    width: 16%;
+    left:4vw;
+    top: 25vh;
+    position: fixed;
+    filter: drop-shadow(0 0 0.30rem rgb(255, 252, 252));
+    opacity: 1;
+    z-index: 3;
+  }
+
+  .gif-three{
+    width: 22%;
+    right: 20vw;
+    top:8vh;
+    position: fixed;
+    filter: drop-shadow(0 0 0.30rem rgb(255, 252, 252));
+    opacity: 1;
+  }
+
+
+  .button:hover .gif {
+    filter: drop-shadow(0 0 0.9rem rgb(255, 252, 252));
+    cursor: pointer;
+  }
+
+
+  .hidden-message{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    color: rgb(255, 238, 1);
+    position: fixed;
+    right: 0;
+    opacity: 0;
+  }
+
+.button:hover .hidden-message {
+  opacity: 1;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.emojis{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 255, 0);
+    font-size: 1rem;
+    position: fixed;
+    left:1.5vw;
+    top:16vh;
+    width:40%;
+    text-transform: uppercase;
+}
+
+.emojis-two{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 1rem;
+    position: fixed;
+    bottom: 0;
+    right:1.5vw;
+
+    text-transform: uppercase;
+    text-align: right;
+}
+  
+
+@media only screen and (max-width:600px), (min-wdth:600px){
+
+
+    .section{
+        overflow-y: hidden;
+    }
+
+    .letter-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.4rem;
+    }
+
+    .letter{
+    font-size: 0.9rem;
+    width: 4rem;
+    padding: 1.2rem;
+    }
+
+    .first-input, .second-input, .third-input{
+        margin-top: 36vh;
+    }
+
+
+input{
+    font-size: 0.8rem;
+    margin : 0 auto;
+    width: 50%;
+    padding: 18%;  
+
+}
+
+    .space{
+        flex: 0 0 auto; 
+        width: 22.3rem; 
+        padding: 1.1rem;
+
+    }
+
+    .first-input-text, .second-input-text, .third-input-text{
+        font-size: 0.8rem;
+        flex-wrap: wrap;
+        top: 6vh;
+    }
+
+    .scroll{
+        font-size: 0.8rem;
+    }
+
+    .sub-title{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 1.1rem;
+        width:21.3rem;
+    }
+
+    .gif{
+        width:40%;
+        top:6vh;
+        right:3vw;
+    }
+
+    .hidden-message{
+        font-size: 0.9rem;
+        top:8vh;
+        right: 0;
+     }
+
+      #log1,
+      #log2 {
+     font-size: 0.7rem;
+    
+    }
+
+    .scroll{
+        font-size: 0.6rem;
+        width: 100%;
+        bottom: -2vh;
+    }
+
+    .emojis{
+        font-size: 0.5rem;
+        top:36vh;
+        width:90%;
+    }
+
+    .emojis-two{
+        font-size: 0.6rem;
+        bottom:3vh;
+    
+    }
+
+}
+ 

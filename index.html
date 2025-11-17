@@ -2,16 +2,194 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"  href="style.css">
-    <title> Diane Masilo ✧ Work</title>
+    <title>the frenchie coding keyboard</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-hello
+ <div id="cursor-custom" class="scroll-container">
+
+  
+    <div class="letter-container">
+        <button class="letter" type="button">H</button>
+        <button class="letter" type="button">E</button>
+        <button class="letter" type="button">L</button>
+        <button class="letter" type="button">L</button>
+        <button class="letter" type="button">O </button>
+
+        <button class="space" type="button"> space </button>
+
+        <button class="letter" type="button">W</button>
+        <button class="letter" type="button">O</button>
+        <button class="letter" type="button">R</button>
+        <button class="letter" type="button">L</button>
+        <button class="letter" type="button">D</button>
 
 
+        <p class="sub-title">The first frenchie coding keyboard prototype (˶ᵔ ᵕ ᵔ˶)</p>
+
+        <p class="emojis">⋆.𐙚˚guys! we can't make this an app bcs then the website will be taken off! and as someone with strict parents, they won't let me get the app! thumbs up if you want to KEEP this as a website!⚝</p> 
+        <p class="emojis-two">𝑡ℎ𝑖𝑠 𝑤𝑒𝑏𝑠𝑖𝑡𝑒 𝑖𝑠𝑛'𝑡 𝑓𝑜𝑟 𝑤𝑖𝑒𝑟𝑑 𝑠𝑡𝑢𝑓𝑓 𝑎𝑛𝑑 𝑑𝑎𝑡𝑖𝑛𝑔 𝑎𝑝𝑝, 𝑔𝑜 𝑓𝑖𝑛𝑑 𝑜𝑡ℎ𝑒𝑟 𝑤𝑒𝑏𝑠𝑖𝑡𝑒 (ง'̀-'́)ง <br> <span style="color:deeppink">"petition to make this an app ! <33" shut the fuck up. </p> 
+    <div class="button">
+
+      <a href="second.html">
+        <img class="gif" src="gifs/giphy.gif" alt="computer">
+      </a>
+        <img class="gif-two" src="gifs/200.gif" alt="stars">
+        <img class="gif-two-two" src="gifs/200.gif" alt="stars">
+        <img class="gif-three" src="gifs/933590.gif" alt="stars">
+
+        <p class="hidden-message">how did it start? <br> wanna know?</p>
+    </div>
+
+        
+    </div>
+
+    <section id="section1" class="section">
+
+      <div class="first-input">
+          <p  class="first-input-text">Let's start with something easy. What if you type this ↙ <span style="color: yellow; text-decoration: underline; "> <br> Hello, world!</span></p>
+          <label for="first"></label><br>
+          <input type="text" id="sample1" />
+  
+  
+      </div>
+      <p id="log1"></p>
+  
+  
+    
+  
+      <p class="scroll"> ↙Scroll down for the next step↙</p>
+  
+      </section>
+
+    <section id="section2" class="section">
+
+    <div class="first-input">
+        <p  class="first-input-text">What if you try to type with it? Let's try to write this coding sentence ↙ <span style="color: yellow; text-decoration: underline; "> <br> input {font-size: 18px; margin: 0;}</span></p>
+        <label for="first"></label><br>
+        <input type="text" id="sample1" />
+
+
+    </div>
+    <p id="log1"></p>
+
+
+  
+
+    <p class="scroll"> ↙Scroll down for the next step↙</p>
+
+    </section>
+
+
+    <section id="section3" class="section">
+
+    <div class="second-input">
+        <p class="second-input-text" >Getting used to that new keyboard? Let's try it again with this statement ↙ <span style="color:yellow; text-decoration: underline;"> <br> Elon Musk is an absolute hypocrite and insane man.</span>  </p>
+        <label for="second"></label><br>
+        <input type="text" id="sample2" />
+      
+    </div>
+    <p id="log2"></p>
+
+    <p class="scroll"> ↙Scroll down for the next step↙</p>
+
+    </section>
+
+    <section id="section4" class="section">
+
+        <div class="third-input">
+            <p class="third-input-text" > Let's write some french with a sentence with one of my favorite quotes ↙ <span style="color: yellow; text-decoration: underline;"><br> « À nous deux maintenant ! » </span>  </p>
+            <label for="third"></label><br>
+            <input type="text" id="sample3" />
+          
+        </div>
+        <p id="log2"></p>
+    
+        <p class="scroll"> ↙Scroll down for the next step↙</p>
+    
+        </section>
+        
+
+
+</div>
+
+
+
+    <script>
+       const inputs = document.querySelectorAll("input[type='text']");
+const logs = document.querySelectorAll("p[id^='log']");
+
+const letterMap = { a: 'Q', b: 'H', c: 'F', d: 'U', e: 'E', f: 'I', g: 'O', h: 'P', i: 'L', j: 'S', k: 'X', l: 'B', m: 'K', n: 'J', o: 'N', p: 'C', q: 'A', r: 'R', s: 'Z', t: 'T', u: 'M', v: 'G', w: 'W', x: 'D', y: 'Y', z: 'V' };
+const numberToLetterMap = { 1:'À',2:'É',3:'Ê',4:'Ù',5:'Ô',6:'Ç',7:'Î',8:'(',9:'[',0:'{' };
+const keyMap = { '!':'Â','@':'È','#':'Ë','$':'Ü','%':'Œ','&':'Ï','*':')','(':']','(':'}','_':'<','-':'>','~':'@','<':'.','>':'>;','/':','};
+
+inputs.forEach((input, i) => {
+  const log = logs[i];
+  let typingTimer;
+  let hasShownLog = false;
+
+  input.addEventListener("keydown", (e) => {
+   
+    if (/^[a-zA-Z]$/.test(e.key)) {
+      const lowerKey = e.key.toLowerCase();
+      if (letterMap[lowerKey]) {
+        e.preventDefault();
+        const replacement = e.key === e.key.toUpperCase()
+          ? letterMap[lowerKey].toUpperCase()
+          : letterMap[lowerKey];
+        insertAtCaret(input, replacement);
+      }
+    }
+
+    if (numberToLetterMap[e.key]) {
+      e.preventDefault();
+      insertAtCaret(input, numberToLetterMap[e.key]);
+    }
+
+    if (keyMap[e.key]) {
+      e.preventDefault();
+      insertAtCaret(input, keyMap[e.key]);
+    }
+
+
+    if (!hasShownLog) {
+      
+      clearTimeout(typingTimer);
+
+
+      typingTimer = setTimeout(() => {
+        if (i === 0) {
+          log.textContent = "Good! Let's try another one ٩(ˊᗜˋ*)و ♡ ";
+        } else if (i === 1) {
+          log.textContent = "So? Are you comfortable typing on the keyboard (ᵕ—ᴗ—)?";
+        }
+        if (i === 2) {
+          log.textContent = "Still struggling.ᐣ .ᐣ .ᐣ";
+        } else if (i === 3) {
+          log.textContent = "If you are intrested it's from the last page of The Father Goriot from Honoré de Balzac ( ⸝⸝´꒳`⸝⸝)";
+        }
+        
+        
+
+        log.classList.add("show");
+        hasShownLog = true;
+      }, 300); 
+    }
+  });
+});
+
+function insertAtCaret(input, replacement) {
+  const start = input.selectionStart;
+  const end = input.selectionEnd;
+  const value = input.value;
+  input.value = value.slice(0, start) + replacement + value.slice(end);
+  input.selectionStart = input.selectionEnd = start + replacement.length;
+}
+
+
+        
+    </script>
 </body>
 </html>
- 

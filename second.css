@@ -7,6 +7,7 @@
 body, html{
 background-color: black;
 overflow-x: hidden;
+cursor: url('pics/cursor.png') 10 2, auto !important;
 }
 
 .scroll-container {
@@ -61,7 +62,7 @@ overflow-x: hidden;
 
   .button:hover .gif {
     filter: drop-shadow(0 0 0.9rem rgb(255, 252, 252));
-    cursor: pointer;
+    cursor: url('pics/pointer.png') 10 2, pointer;
   }
 
 
@@ -104,6 +105,7 @@ overflow-x: hidden;
     bottom: 65vh;
     margin-right: 6%;
 }
+
 .description-two{
     display: block;
     position: relative;
@@ -182,8 +184,7 @@ overflow-x: hidden;
     font-size: 1.35rem;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-transform: uppercase;
-    margin:1%; 
-    
+    margin:1%;  
 }
 
 .text-two{
@@ -216,4 +217,83 @@ overflow-x: hidden;
     font-size: 0.7rem;
     color: yellow;
     text-decoration: underline
+}
+
+
+  
+
+@media only screen and (max-width:600px), (min-wdth:600px){
+
+
+.azerty-qwerty{
+    width: 75%;
+    left: 28vw;
+}
+
+.title{
+    font-size: 0.8rem;
+    left:42vw;
+    top:42vh;
+}
+
+.title-two{
+    font-size: 0.8rem;
+    left:42vw;
+    top:42vh;
+}
+
+.gif{
+    width:40%;
+    top:6vh;
+    right:3vw;
+}
+
+.text{
+    display:block;
+    position: relative;
+    height: 100%;
+    bottom:30vh;
+}
+
+.text-one, .text-two, .text-three {
+    font-size: 0.8rem;
+    margin:1%;  
+}
+
+.scroll{
+    left: 50%;
+    width:100%;
+    font-size: 0.7rem;
+    color: yellow;
+}
+
+.video-one{
+    width:40%;
+    height: auto;
+    bottom:20vh;
+}
+
+.video-two{
+    position: relative;
+    width:40%;
+    bottom:20vh;
+}
+
+.video-three{
+    position: relative;
+    width:40%;
+    bottom:20vh;
+}
+
+.video-four{
+    position: relative;
+    width:40%;
+    bottom:20vh;
+}
+
+.description{
+    font-size: 0.8rem;
+    bottom: 20vh;
+}
+
 }

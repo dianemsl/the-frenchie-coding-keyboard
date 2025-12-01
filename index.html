@@ -108,7 +108,7 @@
     <section id="section3" class="section">
 
     <div class="first-input">
-        <p  class="first-input-text">What if you try to type with it? Let's try to write this coding sentence ↙ <span style="color: yellow; text-decoration: underline; "> <br> input {font-size: 18px; margin: 0;}</span></p>
+        <p  class="first-input-text">What if you try to type with it? Let's try to write this coding sentence ↙ <span style="color: yellow; text-decoration: underline; "> <br> body,html { overlfow:hidden; }  </span></p>
         <label for="first"></label><br>
         <input type="text" id="sample1" />
 
@@ -127,7 +127,7 @@
     <section id="section4" class="section">
 
     <div class="second-input">
-        <p class="second-input-text" >Getting used to that new keyboard? Let's try it again with this statement ↙ <span style="color:yellow; text-decoration: underline;"> <br> Elon Musk is an absolute hypocrite and insane man.</span>  </p>
+        <p class="second-input-text" >Getting used to that new keyboard? Let's try it again with this statement ↙ <span style="color:yellow; text-decoration: underline;"> <br> Elon Musk is an absolute hypocrite and insane man ˶ᵔ ᵕ ᵔ˶</span>  </p>
         <label for="second"></label><br>
         <input type="text" id="sample2" />
       
@@ -141,7 +141,7 @@
     <section id="section5" class="section">
 
         <div class="third-input">
-            <p class="third-input-text" > Let's write some french with a sentence with one of my favorite quotes ↙ <span style="color: yellow; text-decoration: underline;"><br> « À nous deux maintenant ! » </span>  </p>
+            <p class="third-input-text" > Let's write some french with a sentence with one of my favorite quotes ↙ <span style="color: yellow; text-decoration: underline;"><br> « Bientôt c'est Noël, j'ai hâte ! » </span>  </p>
             <label for="third"></label><br>
             <input type="text" id="sample3" />
           
@@ -179,12 +179,12 @@
   
   const letterMap = { a: 'A', b: 'H', c: 'F', d: 'U', e: 'E', f: 'I', g: 'O', h: 'P', i: 'L', j: 'S', k: 'X', l: 'B', m: 'K', n: 'J', o: 'N', p: 'C', q: 'Q', r: 'R', s: 'Z', t: 'T', u: 'M', v: 'G', w: 'W', x: 'D', y: 'Y', z: 'V' };
   const numberToLetterMap = { 1:'À',2:'É',3:'Ê',4:'Ù',5:'Ô',6:'Ç',7:'Î',8:'(',9:'[',0:'{', };
-  const keyMap = { '§':'@','!':'Â','@':'È','#':'Ë','$':'Û','&':'Ï','*':')','(':']',')':'}','-':'<','_':'>','+':'-','=':'_',};
+  const keyMap = { '§':'@','!':'Â','@':'È','#':'Ë','$':'Û','&':'Ï','*':')','(':']',')':'}','-':'<','_':'>','+':'-','=':'_','[':'?',']':'!',';':',',',':';','.':':','/':'.'};
   
   const functionKeyMap = {
     F1: "«",
     F2: "“",
-    F3: "/",
+    F3: "=",
     F4: "*",
     F5: "%",
     F6: "&",
@@ -199,7 +199,7 @@
   const comboKeyMap = {
     "Shift+F1": "»",
     "Shift+F2": "”",
-    "Shift+F3": "°",
+    "Shift+F3": "+",
     "Shift+F4": "#",
     "Shift+F5": "€",
     "Shift+F6": "$",

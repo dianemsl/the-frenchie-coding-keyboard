@@ -744,5 +744,384 @@ input{
       filter: drop-shadow(0 0 0.30rem rgb(255, 252, 252));
     }
 
+
+
+
+}
+
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+
+
+
+.a{
+  display: flex;
+  position: inherit;
+  width: 50%;
+  height: auto;
+  top: 30vh;
+  right:25.45vw;
+  opacity: 0;  
+}
+
+.a.show {
+  opacity: 1;      
+}
+
+.b{
+  display: flex;
+  position: inherit;
+  width: 50%;
+  height: auto;
+  top: 30vh;
+  right:74.9vw;
+  opacity: 0;  
+}
+
+.b.show {
+  opacity: 1;      
+}
+
+.c{
+  display: flex;
+  position: inherit;
+  width: 50%;
+  height: auto;
+  top: 30vh;
+  right:124.35vw;
+  opacity: 0;  
+}
+
+.c.show {
+  opacity: 1;      
+}
+
+.d{
+  display: flex;
+  position: inherit;
+  width: 50%;
+  height: auto;
+  top: 30vh;
+  right:173.77vw;
+  opacity: 0;  
+}
+
+.d.show {
+  opacity: 1;      
+}
+
+.e{
+  display: flex;
+  position: inherit;
+  width: 50%;
+  height: auto;
+  top: 30vh;
+  right:223.22vw;
+  opacity: 0;  
+}
+
+.e.show {
+  opacity: 1;      
+}
+
+.f{
+  display: flex;
+  position: inherit;
+  width: 50%;
+  height: auto;
+  top: 30vh;
+  right:272.66vw;
+  opacity: 0;  
+}
+
+.f.show {
+  opacity: 1;      
+}
+
+.g{
+  display: flex;
+  position: inherit;
+  width: 50%;
+  height: auto;
+  top: 30vh;
+  right:322.12vw;
+  opacity: 0;  
+}
+
+.g.show {
+  opacity: 1;      
+}
+
+.h{
+  display: flex;
+  position: inherit;
+  width: 50%;
+  height: auto;
+  top: 30vh;
+  right:371.56vw;
+  opacity: 0;  
+}
+
+.h.show {
+  opacity: 1;      
+}
+
+.i{
+  display: flex;
+  position: inherit;
+  width: 50%;
+  height: auto;
+  top: 30vh;
+  right:421vw;
+  opacity: 0;  
+}
+
+.i.show {
+  opacity: 1;      
+}
+
+.j{
+  display: flex;
+  position: inherit;
+  width: 50%;
+  height: auto;
+  top: 30vh;
+  right:470.45vw;
+  opacity: 0;  
+}
+
+.j.show {
+  opacity: 1;      
+}
+
+.k{
+  display: flex;
+  position: inherit;
+  width: 50%;
+  height: auto;
+  top: 30vh;
+  right:519.9vw;
+  opacity: 0;  
+}
+
+.k.show {
+  opacity: 1;      
+}
+
+.l{
+  display: flex;
+  position: inherit;
+  width: 50%;
+  height: auto;
+  top: 30vh;
+  right:569.35vw;
+  opacity: 0;  
+}
+
+.l.show {
+  opacity: 1;      
+}
+
+.m{
+  display: flex;
+  position: inherit;
+  width: 50%;
+  height: auto;
+  top: 30vh;
+  right:618.8vw;
+  opacity: 0;  
+}
+
+.m.show {
+  opacity: 1;      
+}
+
+.n{
+  display: flex;
+  position: inherit;
+  width: 50%;
+  height: auto;
+  top: 30vh;
+  right:668.22vw;
+  opacity: 0;  
+}
+
+.n.show {
+  opacity: 1;      
+}
+
+.o{
+  display: flex;
+  position: inherit;
+  width: 50%;
+  height: auto;
+  top: 30vh;
+  right:717.67vw;
+  opacity: 0;  
+}
+
+.o.show {
+  opacity: 1;      
+}
+
+.p{
+  display: flex;
+  position: inherit;
+  width: 50%;
+  height: auto;
+  top: 30vh;
+  right:767.12vw;
+  opacity: 0;  
+}
+
+.p.show {
+  opacity: 1;      
+}
+
+.q{
+  display: flex;
+  position: inherit;
+  width: 50%;
+  height: auto;
+  top: 30vh;
+  right:816.55vw;
+  opacity: 0;  
+}
+
+.q.show {
+  opacity: 1;      
+}
+
+.r{
+  display: flex;
+  position: inherit;
+  width: 50%;
+  height: auto;
+  top: 30vh;
+  right:866vw;
+  opacity: 0;  
+}
+
+.r.show {
+  opacity: 1;      
+}
+
+.s{
+  display: flex;
+  position: inherit;
+  width: 50%;
+  height: auto;
+  top: 30vh;
+  right:915.45vw;
+  opacity: 0;  
+}
+
+.s.show {
+  opacity: 1;      
+}
+
+.t{
+  display: flex;
+  position: inherit;
+  width: 50%;
+  height: auto;
+  top: 30vh;
+  right:964.9vw;
+  opacity: 0;  
+}
+
+.t.show {
+  opacity: 1;      
+}
+
+.u{
+  display: flex;
+  position: inherit;
+  width: 50%;
+  height: auto;
+  top: 30vh;
+  right:1014.35vw;
+  opacity: 0;  
+}
+
+.u.show {
+  opacity: 1;      
+}
+
+.v{
+  display: flex;
+  position: inherit;
+  width: 50%;
+  height: auto;
+  top: 30vh;
+  right:1063.8vw;
+  opacity: 0;  
+}
+
+.v.show {
+  opacity: 1;      
+}
+
+.w{
+  display: flex;
+  position: inherit;
+  width: 50%;
+  height: auto;
+  top: 30vh;
+  right:1113.22vw;
+  opacity: 0;  
+}
+
+.w.show {
+  opacity: 1;      
+}
+
+.x{
+  display: flex;
+  position: inherit;
+  width: 50%;
+  height: auto;
+  top: 30vh;
+  right:1162.68vw;
+  opacity: 0;  
+}
+
+.x.show {
+  opacity: 1;      
+}
+
+.y{
+  display: flex;
+  position: inherit;
+  width: 50%;
+  height: auto;
+  top: 30vh;
+  right:1212.13vw;
+  opacity: 0;  
+}
+
+.y.show {
+  opacity: 1;      
+}
+
+.z{
+  display: flex;
+  position: inherit;
+  width: 50%;
+  height: auto;
+  top: 30vh;
+  right:1261.55vw;
+  opacity: 0;  
+}
+
+.z.show {
+  opacity: 1;      
+}
+
+
 }
  
